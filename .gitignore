@@ -1,0 +1,29 @@
+# --- Generated data -------------------------------------------------
+# Everything here is rebuilt by build_panel() on first run. The raw Yahoo
+# cache alone is ~250 MB, and the panel is a derived view of it.
+.cache/
+sp500_panel.parquet
+coverage_report.csv
+membership_spells.csv
+
+# --- Generated charts -----------------------------------------------
+# Produced by --save-plot; regenerate rather than version them.
+*.png
+
+# --- Scratch analysis ------------------------------------------------
+# Raw dumps from one-off assumption checks, kept locally for reference.
+_*.txt
+fast_vs_slow_results.json
+*.ipynb
+.ipynb_checkpoints/
+Main.py
+adding_short_strategy.md
+
+# --- Tooling ---------------------------------------------------------
+.claude/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store

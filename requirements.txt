@@ -1,0 +1,7 @@
+# Python 3.11+
+pandas>=2.0
+numpy>=1.24
+yfinance>=0.2.40
+matplotlib>=3.7
+pyarrow>=14.0      # sp500_panel.parquet
+lxml>=4.9          # pd.read_html on the Wikipedia constituent tables
