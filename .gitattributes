@@ -1,0 +1,8 @@
+# Normalise line endings. Authored on Windows; stored LF in the repo so diffs
+# stay clean for anyone cloning on Linux or macOS.
+* text=auto eol=lf
+
+# Binary / generated -- never normalise or diff these.
+*.png    binary
+*.parquet binary
+*.ipynb  -diff
